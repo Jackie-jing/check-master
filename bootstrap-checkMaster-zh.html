@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--基本模板 zh-CN-->
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap-checkMaster-zh</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+   <!--扩展HTTP响应头消息，告诉ie浏览器使用最新引擎渲染网页，仅ie识别 IE=7/8/9/10-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/bootstrap_checkMaster.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--导航栏-->
+   <div class="navbar navbar-default navbar-fixed-top">
+       <div class="container">
+           <!--导航条：header=navbar-brand+navbar-toggle-->
+           <div class="navbar-header">
+               <a href="" class="navbar-brand img"></a>
+               <a href="#menu" class="navbar-toggle" data-toggle="collapse">
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+               </a>
+           </div>
+
+       <!--导航条: navbar-collapse-->
+           <div id="menu" class="collapse navbar-collapse">
+           <!--左侧菜单-->
+               <ul class="nav navbar-nav">
+                   <li><a href="#" class="btn-danger">中文</a></li>
+                   <li class="#"><a href="file:///C:/Users/amhuser/Desktop/check/bootstrap-checkMaster.html">English</a></li>
+                   
+                  
+               </ul>
+               <!--右侧导航栏-->
+               <ul class="nav navbar-nav navbar-right">
+                   <li><a href="#">特点</a></li>
+                   <li><a href="#">教程</a></li>
+               </ul>
+
+
+
+               <!--右侧表单-->
+             
+               <!--右侧文本-->
+              
+           </div>
+       </div>
+   </div>
+
+
+
+
+    <!--中间主体内容-->
+    <div class="container"> 
+      <!-- 文本域和按钮 -->
+        <textarea name="" class="form-control area" cols="20" rows="10" placeholder="请输入编码。"></textarea>
+
+        <div class="btn-rea">
+          <button class="btn btn-lg btn-danger btn-possition" onclick="checknow()">现在检查</button>
+        </div>
+        <!-- 表格和标题 -->
+        <div class="table-responsive table-possition">
+          <div class="text-h3">
+            <h3>检查结果</h3>
+          </div>
+           
+            <table class="table table-bordered ">
+                <tr>
+                    <th>标题</th>
+                    <th>描述</th>
+                    <th>空链接</th>
+                    <th>电话号码检查</th>
+                    <th>图片属性</th>
+                    <th>标题</th>
+                    <th>文本</th>
+                    <th>...</th>
+                </tr>
+                <tr>
+                    <td><span class="glyphicon glyphicon-ok" ></span></td>
+                    <td><span class="glyphicon glyphicon-ok"></span></td>
+                    <td><span class="glyphicon glyphicon-ok"></span></td>
+                    <td><span class="glyphicon glyphicon-ok"></span></td>
+                    <td><span class="glyphicon glyphicon-ok"></span></td>
+                    <td><span class="glyphicon glyphicon-ok"></span></td>
+                    <td><span class="glyphicon glyphicon-ok"></span></td>
+                    <td><span class="glyphicon glyphicon-remove"></span></td>
+                </tr>
+            </table>
+        </div>
+            
+    </div> 
+
+<!--页面底部-->
+<!-- <div class="container"> -->
+    <!--正确布局:1行2列,每列再嵌套1行2列-->
+    <div class="row">
+      <div class="footer"></div>
+    </div>
+
+</div>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

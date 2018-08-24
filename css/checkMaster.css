@@ -1,0 +1,100 @@
+//checkMaster
+
+*{padding: 0px;margin: 0px;}
+body{
+  text-align: center;
+  margin: 0 auto;
+  width:960px;
+
+}
+div.header{
+  background:#ddd;
+  height: 100px;
+  line-height: 100px;
+  float: left;
+  width: 960px;
+  clear:both;
+
+}
+.img{
+  width: 200px;
+  height: 50px;
+  background-image: url(../imgs/checkMater-logo.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  display: inline-block;
+  margin-left: -80px;
+  margin-top: 22px;
+}
+.left{
+  width: 480px;
+  height: 100px;
+  float: left;
+  position: relative;
+  margin-left: -80px;
+}
+.right{
+  width: 480px;
+  height: 100px;
+  float: right;
+}
+.text{
+  display: inline-block;
+  position: absolute;top: 0px;
+}
+a{color: #000}
+.text>a:nth-child(2){color: red;}
+.text-right{
+  display:inline-block;
+  margin-left: 270px;
+}
+.textarea{
+  width: 800px;
+  height: 150px;
+  margin-top: 60px;
+}
+.middle{
+  position: relative;
+  width: 960px;
+  height: 200px;
+}
+.btn-posstion{
+  position: absolute;
+  top:325px;
+  left: 757px;
+}
+div.result{
+  margin-top: 100px;
+}
+.tab{
+  border: 1px solid black;
+  margin-left: 190px;
+  border-collapse: collapse;
+  margin-top: 40px;
+  margin-left: 83px;
+
+}
+
+th,td{
+  border:1px solid black;
+  height: 50px;
+  width: 100px;
+}
+th{background: #ddd;text-align: center;}
+.footer{width: 960px;height: 50px;background: gray;margin-top: 500px;}
+.r{
+  width: 20px;
+  height:20px;
+  background-image: url(../img/yes.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
+.c{
+  width: 20px;
+  height:20px;
+  background-image: url(../img/no.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: inline-block;
+}
