@@ -3,7 +3,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>bootstrap-checkMaster</title>
+    <title>checkMaster is a simple and visualization testing tool</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
    <!--扩展HTTP响应头消息，告诉ie浏览器使用最新引擎渲染网页，仅ie识别 IE=7/8/9/10-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,7 @@
     <script src="js/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body style="overflow-x:hidden">
 <!--导航栏-->
    <div class="navbar navbar-default navbar-fixed-top">
        <div class="container">
@@ -58,10 +58,11 @@
     <!--中间主体内容-->
     <div class="container"> 
       <!-- 文本域和按钮 -->
-        <textarea name="" class="form-control area" cols="20" rows="10" placeholder="Please input page code here."></textarea>
+        <textarea id="textarea" name="" class="form-control area" cols="20" rows="10" placeholder="Please input page code here."></textarea>
 
         <div class="btn-rea">
           <button class="btn btn-lg btn-danger btn-possition" onclick="checknow()">Check now</button>
+          <button class="btn btn-lg btn-info btn1-possition" onclick="clearText()">Clear</button>
         </div>
         <!-- 表格和标题 -->
         <div class="table-responsive table-possition">
@@ -73,22 +74,25 @@
                 <tr>
                     <th>title</th>
                     <th>discrition</th>
+                    <th>canonical</th>
                     <th>empty url</th>
-                    <th>phone number clickable</th>
+                    <th>only one red CTA button</th>
+                    <th>email clickable</th>
                     <th>image alt</th>
                     <th>heading</th>
-                    <th>words</th>
-                    <th>...</th>
+                    <th>phone number clickable</th>
+                    
                 </tr>
-                <tr>
-                    <td><span class="glyphicon glyphicon-ok" ></span></td>
-                    <td><span class="glyphicon glyphicon-ok"></span></td>
-                    <td><span class="glyphicon glyphicon-ok"></span></td>
-                    <td><span class="glyphicon glyphicon-ok"></span></td>
-                    <td><span class="glyphicon glyphicon-ok"></span></td>
-                    <td><span class="glyphicon glyphicon-ok"></span></td>
-                    <td><span class="glyphicon glyphicon-ok"></span></td>
-                    <td><span class="glyphicon glyphicon-remove"></span></td>
+                <tr class="tr">
+                    <td><img></td>
+                    <td><img></td>
+                    <td><img></td>
+                    <td><img></td>
+                    <td><img></td>
+                    <td><img></td>
+                    <td><img ></td>
+                    <td><img ></td>
+                    <td><img ></td>
                 </tr>
             </table>
         </div>
@@ -103,6 +107,7 @@
     </div>
 
 </div>
+<script type="text/javascript" src="js/js.js"></script>
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/bootstrap.js"></script>
 </body>
