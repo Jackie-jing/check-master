@@ -3255,19 +3255,19 @@ fieldset[disabled] .btn-success.active {
 }
 .btn-info {
   color: #fff;
-  background-color: #5bc0de;
-  border-color: #46b8da;
+  background-color: #1c385e;
+
 }
 .btn-info:focus,
 .btn-info.focus {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #1b6d85;
+  background-color: #272727;
+  border-color: #272727;
 }
 .btn-info:hover {
   color: #fff;
-  background-color: #31b0d5;
-  border-color: #269abc;
+  background-color: #272727;
+  border-color: #272727;
 }
 .btn-info:active,
 .btn-info.active,
@@ -3312,11 +3312,11 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #5bc0de;
+  background-color: #1c385e;
   border-color: #46b8da;
 }
 .btn-info .badge {
-  color: #5bc0de;
+  color: #1c385e;
   background-color: #fff;
 }
 .btn-warning {
@@ -3387,7 +3387,7 @@ fieldset[disabled] .btn-warning.active {
 }
 .btn-danger {
   color: #fff;
-  background-color: #d9534f;
+  background-color: #e43d4a;
   border-color: #d43f3a;
 }
 .btn-danger:focus,
@@ -3444,11 +3444,11 @@ fieldset[disabled] .btn-danger:active,
 .btn-danger.disabled.active,
 .btn-danger[disabled].active,
 fieldset[disabled] .btn-danger.active {
-  background-color: #d9534f;
+  background-color: #e43d4a;
   border-color: #d43f3a;
 }
 .btn-danger .badge {
-  color: #d9534f;
+  color: #e43d4a;
   background-color: #fff;
 }
 .btn-link {
@@ -4541,8 +4541,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #0171c5;
-  border-color: #015ea4;
+  background-color: #1c385e;
+  border-color: #1c385e;
+  box-shadow: 1px 1px 1px #ccc;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -4937,7 +4938,7 @@ a.label:focus {
   background-color: #449d44;
 }
 .label-info {
-  background-color: #5bc0de;
+  background-color: #1c385e;
 }
 .label-info[href]:hover,
 .label-info[href]:focus {
@@ -5216,7 +5217,7 @@ a.thumbnail.active {
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
 .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #1c385e;
 }
 .progress-striped .progress-bar-info {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
@@ -5232,7 +5233,7 @@ a.thumbnail.active {
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
 .progress-bar-danger {
-  background-color: #d9534f;
+  background-color: #e43d4a;
 }
 .progress-striped .progress-bar-danger {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
@@ -6805,7 +6806,7 @@ body {
 
 
 .img{
-  width: 200px;
+  width: 240px;
   height: 50px;
   background-image: url(../imgs/checkMater-logo.png);
   background-repeat: no-repeat;
@@ -6814,11 +6815,15 @@ body {
   margin-left: 50px;
   
 }
-.navbar-default{background:#ddd;}
+.navbar-default{
+  background:#1c385e;
+  color: #fff;
+}
+
 .navbar-default .navbar-nav > li > a{color: #000;}
 
 
-.footer{width:100%;height: 50px;background: gray;}
+.footer{width:100%;height: 100px;background: #1c385e; margin-top: 200px;}
 
 th,td{
 
@@ -6833,10 +6838,28 @@ th{background:#ddd;}
 }
 .btn-possition{
   position: absolute;
-  left:45%;
+  right: 0;
  
+}
+.btn1-possition{
+  position: absolute;
+  right: 0;
+ margin-right: 135px;
 }
 .btn-rea{position: relative;height:50px;margin-top:50px;}
 .table-possition{margin-top: 20px;}
 /*.check{background:}*/
 .area{margin-top: 50px; resize: none;}
+
+td img{
+  width: 30px;
+}
+
+#main-table th{
+  background-color: #1c385e;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #fff;
+}
